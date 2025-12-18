@@ -18,7 +18,7 @@ Vous pouvez modifier ce document (`README.md`) à tout moment.
 * **Membre 3 : l'Analyste de Données**
     * **Sections :** Principaux Résultats.
     * **Mission :** Synthétiser les découvertes majeures, les chiffres clés et les figures importantes.
-* **Membre 4 : Le Critique**
+* **M4 - BENDOUKHA M. A.: Le Critique**
     * **Sections :** Limites & Conclusion.
     * **Mission :** Identifier les points faibles de l'étude et résumer les conclusions finales.
 
@@ -26,7 +26,7 @@ Vous pouvez modifier ce document (`README.md`) à tout moment.
 * **M5 - MELLIKECHE Y. : Responsable $\LaTeX$ / Éditeur**
     * **Sections :** Mise en page $\LaTeX$ & Bibliographie.
     * **Mission :** Configurer le projet, compiler le code, gérer le fichier `.bib` et assurer l'unité du style visuel.
-* **Membre 6 : Contrôleur Qualité**
+* **M6 - BOUGHANEMI A. : Contrôleur Qualité**
     * **Sections :** Vérification & Relecture.
     * **Mission :** Vérifier l'exactitude des informations par rapport au PDF original et corriger la grammaire et la fluidité du texte.
 
