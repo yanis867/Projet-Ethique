@@ -23,7 +23,7 @@ Vous pouvez modifier ce document (`README.md`) à tout moment.
     * **Mission :** Identifier les points faibles de l'étude et résumer les conclusions finales.
 
 ### **L'Équipe Technique (Production et Qualité)**
-* **MELLIKECHE Y. : Responsable $\LaTeX$ / Éditeur**
+* **M5 - MELLIKECHE Y. : Responsable $\LaTeX$ / Éditeur**
     * **Sections :** Mise en page $\LaTeX$ & Bibliographie.
     * **Mission :** Configurer le projet, compiler le code, gérer le fichier `.bib` et assurer l'unité du style visuel.
 * **Membre 6 : Contrôleur Qualité**
@@ -36,9 +36,9 @@ Vous pouvez modifier ce document (`README.md`) à tout moment.
 
 | Phase       | Tâche                                               | Date Limite |
 | :---        | :---                                                | :---        |
-| **Phase 1** | Téléchargement et lecture individuelle de l'article | **22 déc.** |
+| **Phase 1** | Téléchargement et lecture individuelle de l'article | **23 déc.** |
 | **Phase 2** | Rédaction des sections individuelles (Membres 1–4)  | **27 déc.** |
-| **Phase 3** | Assemblage $\LaTeX$ et Bibliographie (Membre 5)        | **30 déc.** |
+| **Phase 3** | Assemblage $\LaTeX$ et Bibliographie (Membre 5)     | **30 déc.** |
 | **Phase 4** | Révision finale et corrections (Membre 6)           | **1 jan.**  |
 | **Phase 5** | **Soumission Finale**                               | **2 jan.**  |
 
