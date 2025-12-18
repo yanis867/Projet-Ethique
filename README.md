@@ -9,7 +9,7 @@ Vous pouvez modifier ce document (`README.md`) à tout moment.
 ## Rôles et Responsabilités
 
 ### **L'Équipe Contenu (Rédaction et Analyse)**
-* **M1 - YEBEDRI I. : Le Spécialiste Contexte**
+* **M1 - YEBDRI I. : Le Spécialiste Contexte**
     * **Sections :** Résumé (Abstract) & Introduction.
     * **Mission :** Définir la problématique traitée par l'article et son importance dans le domaine.
 * **Membre 2 : L'Architecte**
