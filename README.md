@@ -1,4 +1,4 @@
-# Plan de Projet : Synthèse d'Article Scientifique (Groupe de 6)
+# Plan de Projet : Synthèse d'Article Scientifique
 
 Ce document définit les rôles et le calendrier pour notre travail de synthèse en LaTeX. L'objectif est de répartir équitablement la charge de travail pour garantir un document final de haute qualité.
 
