@@ -1,5 +1,6 @@
 # Plan de Projet : Synthèse d'Article Scientifique dont le thème est
-$$\text{Factors influencing data utilization and performance of health management information systems: A case study.}$$
+$$ \text{Factors influencing data utilization and performance of health management information systems: A case study.} $$
+
 
 Ce document définit les rôles et le calendrier pour notre travail de synthèse en $\LaTeX$. L'objectif est de répartir équitablement la charge de travail pour garantir un document final de haute qualité.
 
