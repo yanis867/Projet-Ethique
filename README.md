@@ -48,5 +48,7 @@ Vous pouvez modifier ce document (`README.md`) à tout moment.
 ---
 ## Liens
 - Projet $\$\LaTeX$$: https://www.overleaf.com/7249651679bkcwgbzbprcg#061d3d
-- Article scientifique choisi: (Pas encore choisi)
+- Article scientifique: [researchgate.net](https://www.researchgate.net/profile/Chippy-Mohan/publication/382344570_Factors_Influencing_Data_Utilization_and_Performance_of_Health_Management_Information_Systems_A_Case_Study/links/6699ba3602e9686cd10db177/Factors-Influencing-Data-Utilization-and-Performance-of-Health-Management-Information-Systems-A-Case-Study.pdf#)
 > **Note :** Chaque membre doit avoir téléchargé le PDF original via Google Scholar d'ici la fin de la Phase 1 pour bien comprendre le sujet.
+---
+## Étape 1 : Lire Le PDF (Tous les membres)
