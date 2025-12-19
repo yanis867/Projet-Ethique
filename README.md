@@ -1,4 +1,5 @@
-# Plan de Projet : Synthèse d'Article Scientifique
+# Plan de Projet : Synthèse d'Article Scientifique dont le thème est
+$$\text{Factors influencing data utilization and performance of health management information systems: A case study.}$$
 
 Ce document définit les rôles et le calendrier pour notre travail de synthèse en $\LaTeX$. L'objectif est de répartir équitablement la charge de travail pour garantir un document final de haute qualité.
 
@@ -12,10 +13,10 @@ Vous pouvez modifier ce document (`README.md`) à tout moment.
 * **M1 - YEBDRI I. : Le Spécialiste Contexte**
     * **Sections :** Résumé (Abstract) & Introduction.
     * **Mission :** Définir la problématique traitée par l'article et son importance dans le domaine.
-* **Membre 2 : L'Architecte**
+* **M2 - Bessahraoui S. : L'Architecte**
     * **Sections :** Objectifs & Méthodes.
     * **Mission :** Détailler les buts de la recherche et la méthodologie technique/scientifique utilisée.
-* **Membre 3 : l'Analyste de Données**
+* **M3 - Neggal A. : l'Analyste de Données**
     * **Sections :** Principaux Résultats.
     * **Mission :** Synthétiser les découvertes majeures, les chiffres clés et les figures importantes.
 * **M4 - BENDOUKHA M. A.: Le Critique**
