@@ -45,6 +45,13 @@ Vous pouvez modifier ce document (`README.md`) à tout moment.
 | **Phase 4** | Révision finale et corrections (Membre 6)           | **1 jan.**  |
 | **Phase 5** | **Soumission Finale**                               | **2 jan.**  |
 
+### Compte à rebours jusqu'à la date limite
+
+![](https://img.shields.io/countdown/2026-01-02T00:00:00Z?label=Temps%20restant%20(UTC)&color=critical)
+
+_Ce badge est généré dynamiquement par Shields.io et affiche le temps restant jusqu'au 2 janvier 2026 (UTC). Il se met à jour automatiquement._
+
+
 ---
 ## Liens
 - Détails du projet: [site du prof.](https://sites.google.com/view/learn-master/projects)
