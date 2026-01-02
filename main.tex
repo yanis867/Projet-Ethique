@@ -1,0 +1,224 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{natbib}
+\usepackage[french]{babel} 
+\usepackage{geometry}
+    \geometry{margin=1in}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{svg}
+    \svgsetup{inkscapelatex=false}
+\usepackage{enumitem}
+    \setlist[itemize]{label=\textbullet}
+
+
+\title{\textbf{Synthèse de l'article : \\Factors influencing data utilization and performance of health management information systems: A case study}}
+
+\author{
+    \textbf{BENDOUKHA Mohammed      El Amine} (Le Critique) \\
+    \textbf{BESSAHRAOUI             Sarah} (L'Architecte) \\
+    \textbf{BOUGHANMI               Aymène} (Contrôleur Qualité) \\
+    \textbf{MELLIKECHE              Yanis} (Éditeur \text{\LaTeX}) \\
+    \textbf{NEGGAL                  Aya} (l'Analyste de Données) \\
+    \textbf{YEBDRI                  Ibrahim} (Le Spécialiste Contexte)\\
+    \text{Groupe SID13}
+}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+
+\begin{abstract}
+   Cette étude évalue l'utilisation du Système d'information de gestion des soins de santé (HCMIS) dans 11 districts et 115 établissements de santé en Tanzanie. Malgré la mise en œuvre du Système d'information sanitaire de district (DHCIS), un écart important persiste entre la collecte des données et la prise de décision. Les résultats d'une enquête menée auprès de 93 membres du personnel des établissements et de 13 autorités de district montrent que 61\% des participants des établissements utilisent les données du HCMIS, mais que seulement 39\% des responsables de district les analysent régulièrement.
+Les principaux obstacles sont l'insuffisance des ressources humaines (citée par 100\% des répondants) et le manque de formation pour 42\% du personnel. De plus, 91\% des districts ne disposent pas de protocoles écrits pour la gestion des rapports tardifs ou erronés. L'étude conclut que la surcharge de travail et l'insuffisance des ressources financières nuisent à la performance. Les recommandations comprennent l'amélioration de la formation, une gouvernance claire et des mesures incitatives pour le personnel afin de promouvoir une prise de décision fondée sur des données probantes.
+\end{abstract}
+\newpage
+
+\tableofcontents
+\newpage
+
+
+
+% M1: Introduction
+\section{Introduction}
+%\textit{Auteur : M1 – Yebdri I.}
+Les systèmes d'information de santé sont des outils essentiels pour atteindre les objectifs de santé publique à l'échelle mondiale. Dans le contexte médical actuel, des données précises et pertinentes sont indispensables à la prise de décisions éclairées en matière de santé publique, aux évaluations sectorielles, à la planification stratégique et à l'allocation des ressources. Si les organisations sont fréquemment confrontées à des décisions complexes, marquées par l'ambiguïté et des enjeux importants, les limites cognitives des décideurs peuvent entraver des réponses rationnelles. Par conséquent, une information de qualité est cruciale pour le développement et la pérennité des systèmes de santé.
+
+En Tanzanie, le Système d'information de gestion des soins de santé (HCMIS) a été créé au début des années 1990 comme référentiel central de données sur la morbidité, la mortalité et les infrastructures. Afin de moderniser ce système, le gouvernement a mis en place le Système d'information sanitaire de district (DHCIS), une application web conçue pour agréger et vérifier les statistiques. Malgré ces avancées technologiques et l'augmentation des investissements, l'utilisation concrète de ces données pour améliorer les résultats sanitaires demeure un défi majeur en Tanzanie et dans de nombreux pays d'Afrique subsaharienne.
+
+\subsection{Définition du problème}
+Le problème central abordé dans cette recherche est le persistant « fossé entre les données et l’action » : une situation où les données de santé sont collectées de manière systématique, mais ne sont pas utilisées pour une prise de décision efficace. Plus précisément, la recherche met en évidence que :
+\begin{itemize}
+    \item \textbf{Information stagnante} : les données restent souvent piégées dans des bases de données et des rapports sans être utilisées pour formuler des politiques, améliorer des programmes ou créer des plans stratégiques.
+    \item \textbf{Inefficacité du système} : malgré la transition vers des systèmes numériques comme le DHCIS, de nombreux niveaux régionaux souffrent encore de lacunes en matière de transmission, de combinaison et de compréhension des données.
+    \item \textbf{Faibles taux d'utilisation} : Il existe une disparité importante dans l'utilisation des données ; alors que 61\% du personnel des établissements déclarent utiliser les données, seulement 39\% des autorités de district analysent systématiquement les informations du HCMIS pour orienter leurs opérations.
+    \item \textbf{Obstacles à la performance} : L’efficacité du système est fortement compromise par un manque de ressources humaines et financières, l’absence de protocoles normalisés de traitement des données et une supervision insuffisante.
+\end{itemize}
+
+\begin{figure}[tbh]
+    \centering
+    \includesvg[width=\columnwidth]{figure 1.1}
+    \label{fig:action-data-gap}
+\end{figure}
+
+\newpage
+\subsection{Importance de l'étude}
+Cette étude est cruciale dans le contexte actuel des soins de santé mondiaux et locaux pour plusieurs raisons :
+\begin{itemize}
+    \item \textbf{Prise de décision fondée sur des données probantes} : En identifiant les facteurs qui facilitent ou entravent l’utilisation des données, l’étude aide les systèmes de santé à passer d’une gestion « intuitive » à une gestion « fondée sur des données probantes », ce qui accroît la responsabilité globale.
+    \item \textbf{Optimisation des ressources} : Dans un contexte de budgets limités et de charges de travail élevées concernant les patients, comprendre comment utiliser efficacement les données permet une meilleure allocation des médicaments, des équipements et des ressources humaines.
+    \item \textbf{Normes mondiales de santé} : Cette recherche s’inscrit dans le cadre des mandats du Sommet mondial sur la mesure et la responsabilité en matière de soins de santé, qui exhorte les pays à promouvoir l’utilisation des données locales pour améliorer l’efficacité des programmes de lutte contre les maladies.
+    \item \textbf{Pérennité du système} : En mettant en évidence des lacunes spécifiques telles que le manque de formation du personnel (42\% non formés l'année dernière) et le besoin de mécanismes de retour d'information, cette recherche fournit une feuille de route aux décideurs politiques pour garantir que les investissements dans la technologie de santé numérique produisent des améliorations réelles en matière de santé publique.
+\end{itemize}
+\newpage
+
+
+
+% M2: Objectives & Methods
+\section{Objectifs et Méthodologie}
+%\textit{Auteur : M2 – Bessahraoui S.}
+
+\subsection{Objectifs de l’article}
+Cette recherche visait à répondre à un double objectif principal, directement lié au \\« fossé entre les données et l'action » (\textit{data-action gap}) dans les systèmes de santé :
+
+\begin{itemize}
+    \item \textbf{Évaluer} le niveau d'utilisation effective des informations générées par le Système d'Information de Gestion des Soins de Santé (HCMIS) aux échelons opérationnels (établissements de santé) et décisionnels (districts) en Tanzanie.
+    \item \textbf{Identifier et analyser} les facteurs déterminants – qu'ils soient organisationnels, techniques, humains ou logistiques – qui influencent la performance et l'efficacité globale de ce système d'information.
+\end{itemize}
+
+\subsection{Méthodologie}
+L'étude a adopté une approche par étude de cas approfondie et un design transversal (\textit{cross-sectional}), recourant à une méthodologie mixte (qualitative et quantitative) pour une compréhension holistique.
+
+\paragraph{Cadre et échantillonnage :}
+L'enquête a été menée dans 11 districts tanzaniens, sélectionnés par un échantillonnage aléatoire à plusieurs degrés à partir de huit zones géographiques. L'échantillon final comprenait \textbf{115 établissements de santé}.
+
+\paragraph{Collecte des données :}
+Les données primaires ont été recueillies à deux niveaux au moyen de trois outils complémentaires :
+\begin{itemize}
+    \item \textbf{Enquêtes semi-structurées} administrées à 93 membres du personnel d'établissements de santé.
+    \item \textbf{Entretiens approfondis} menés avec 13 autorités décisionnelles au niveau des districts (Directeurs Médicaux, responsables HCMIS).
+    \item \textbf{Grille d'observation standardisée} utilisée sur site pour évaluer de manière objective les pratiques de gestion, la qualité, la présentation et l'archivage des données.
+\end{itemize}
+
+\paragraph{Analyse des données :}
+L'étude a procédé par étapes distinctes pour traiter les informations :
+\begin{itemize}
+    \item \textbf{Analyse quantitative :} Les données des questionnaires ont été traitées par des méthodes statistiques descriptives (calcul de fréquences et de pourcentages).
+    \item \textbf{Analyse qualitative :} Les entretiens ont été transcrits, traduits et soumis à une analyse de contenu thématique manuelle. Un codage ouvert a permis d'identifier et de catégoriser les thèmes émergents relatifs aux obstacles et facilitateurs.
+    \item \textbf{Triangulation :} Les résultats issus des différentes méthodes et sources ont été croisés et comparés pour assurer la robustesse, la cohérence et la validité des conclusions.
+\end{itemize}
+
+\newpage
+
+
+
+% M3: Principaux Résultats
+\section{Principaux Résultats}
+%\textit{Auteur : M3 – Aya}
+
+\subsection{Découvertes majeures}
+
+Les résultats de l’étude montrent que le système d’information de gestion sanitaire (HCMIS) en Tanzanie est largement déployé, mais son utilisation pour la prise de décision reste limitée et peu systématique.
+
+\paragraph{Utilisation limitée aux rapports administratifs :}
+Bien que la majorité des établissements de santé collectent et transmettent régulièrement des données, celles-ci sont principalement utilisées à des fins de \textbf{reporting administratif} plutôt que pour soutenir des décisions stratégiques basées sur l’analyse.
+
+\paragraph{Faible capacité d'analyse et d'affichage :}
+L’étude met en évidence une \textbf{faible capacité analytique} au sein des établissements et des districts. Peu d’institutions réalisent des analyses structurées (identification des tendances de morbidité, mortalité, charge de travail). Les informations affichées sont souvent incomplètes, non datées et insuffisamment comparables dans le temps, ce qui limite leur valeur décisionnelle.
+
+\paragraph{Désintégration dans la prise de décision :}
+Un autre résultat majeur concerne la \textbf{faible intégration des données HCMIS dans les réunions de gestion}. Bien que la majorité des établissements organisent régulièrement des réunions administratives, les données sanitaires y sont rarement utilisées comme base de discussion ou de justification des décisions. Les décisions prises reposent fréquemment sur des directives hiérarchiques ou des considérations opérationnelles immédiates.
+
+\paragraph{Contraintes humaines et organisationnelles :}
+L’étude souligne que les contraintes humaines et organisationnelles jouent un rôle déterminant dans la sous-performance du HCMIS. Le personnel affecté à la gestion des données est souvent \textbf{insuffisamment formé à l’analyse}, cumule plusieurs responsabilités et manque de temps. L’absence de protocoles écrits, de mécanismes de supervision régulière et de feedback formalisé contribue à une utilisation limitée et inégale des données.
+
+\paragraph{Faible culture de la donnée :}
+Enfin, les résultats révèlent une faible \textbf{culture de la donnée} au sein du système de santé étudié. Bien que les agents comprennent l’importance de la collecte des données, leur motivation est affectée lorsque celles-ci ne sont pas utilisées de manière visible pour améliorer la planification, la gestion des ressources ou la qualité des services.
+
+\newpage
+\subsection{Chiffres clés}
+Les principaux indicateurs quantitatifs issus de l’étude sont résumés dans le tableau ci-dessous :
+
+\begin{table}[h!]
+    \centering
+    \caption{Indicateurs Quantitatifs Clés sur l'Utilisation des Données HCMIS}
+    \label{tab:keyfigures}
+    \begin{tabular}{|p{0.78\textwidth}|c|}
+        \hline
+        \textbf{Indicateur} & \textbf{Résultat} \\
+        \hline
+        Établissements de santé utilisant les données HCMIS & 61 \% \\
+        Établissements réalisant une analyse correcte et structurée des données & 11 \% \\
+        Districts analysant régulièrement les données HCMIS & 39 \% \\
+        Personnel n’ayant reçu aucune formation HCMIS au cours des 12 derniers mois & 42 \% \\
+        Établissements ayant reçu une supervision récente & 42 \% \\
+        Établissements affichant les 10 maladies les plus fréquentes & 56 \% \\
+        Réunions de gestion intégrant les données HCMIS & 39 \% \\
+        Décisions prises à l’issue des réunions de gestion & 71 \% \\
+        Districts disposant de protocoles écrits de gestion des données & Moins de 10 \% \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\newpage
+
+
+
+% M4: Limitations & Conclusion
+\section{Discussion et Conclusion}
+%\textit{Auteur : M4 - Amine}
+
+\subsection{Limites et obstacles de l'étude}
+L'étude de cas en Tanzanie souligne que la mise en œuvre technique du DHCIS est insuffisante à elle seule. L'analyse critique révèle plusieurs goulots d'étranglement majeurs qui entravent la performance du système :
+
+\begin{itemize}
+    \item \textbf{Gouvernance et protocoles} : L'obstacle le plus critique est le manque de gouvernance standardisée\textbf{} des données. L'étude révèle que 91\% des districts ne disposent pas de protocoles écrits pour gérer les rapports tardifs ou incorrects. De plus, les mécanismes de rétroaction sont largement absents ; la communication est unidirectionnelle, les agents de terrain recevant rarement des commentaires constructifs ou des analyses comparatives de la part du district.
+    \item \textbf{Lacunes de supervision} : Les visites de supervision sont sporadiques et incohérentes. Seulement 42\% des établissements de santé ont bénéficié d'une visite de supervision de soutien au cours des trois mois précédant l'étude. En outre, de nombreux superviseurs manquaient de listes de contrôle formelles lors de ces visites.
+
+    \item \textbf{Capital humain et formation} : Le « facteur humain » est identifié comme le maillon faible. Le personnel est souvent submergé par la charge de travail des patients, privilégiant les soins à la saisie des données. De plus, bien que la formation existe, elle se concentre principalement sur la saisie des données plutôt que sur leur analyse. Environ 42\% du personnel des établissements n'avait reçu aucune formation sur le HCMIS au cours des 12 derniers mois.
+
+    \item \textbf{Contraintes de ressources} : L'efficacité du système est également entravée par l'insuffisance des ressources financières pour la maintenance des serveurs et par l'absence d'incitations ou de récompenses pour le personnel qui gère efficacement les données.
+\end{itemize}
+
+
+\subsection{Conclusion finale}
+Cette recherche démontre que la performance d'un système d'information de gestion de la santé (HCMIS) dépend moins de la sophistication du logiciel (DHCIS) que de l'écosystème organisationnel dans lequel il opère.
+
+En Tanzanie, bien que l'outil technologique soit opérationnel, une véritable culture de la donnée fait défaut. Les données sont souvent collectées pour satisfaire à des obligations administratives plutôt que pour éclairer la prise de décision locale. L'étude conclut que pour améliorer l'efficacité, l'investissement doit passer de la technologie vers le capital humain et la gouvernance.
+
+Les principales recommandations découlant de l'étude incluent :
+\begin{itemize}
+    \item L'établissement de mécanismes de rétroaction réguliers et bidirectionnels.
+    \item La formation du personnel à l'analyse des données pour démontrer l'utilité locale.
+    \item La standardisation des protocoles de validation des données dans tous les districts.
+    \item Sans une main-d'œuvre compétente soutenue par des processus de gestion clairs, les données du HCMIS resteront une ressource sous-utilisée.
+\end{itemize}
+\newpage
+
+
+
+\appendix % ce qui suit est un annexe
+\section*{Ressources et Planification du Projet}
+\addcontentsline{toc}{section}{Planification du Projet} % Ajout au sommaire
+
+Ce projet a été géré et suivi via les plateformes en ligne suivantes :
+\begin{itemize}
+    \item \textbf{Répertoire de Projet GitHub :} La planification complète du projet, et la gestion des tâches et les documents sont disponibles ici : \url{https://github.com/yanis867/Projet-Ethique}
+    \item \textbf{Projet Overleaf (\LaTeX{} Source):} \href{https://www.overleaf.com/read/hjdvhrqgwbqs#c614ad}{\texttt{https://www.overleaf.com}}
+    \item \textbf{Article Scientifique (PDF) :} \href{https://www.researchgate.net/profile/Chippy-Mohan/publication/382344570_Factors_Influencing_Data_Utilization_and_Performance_of_Health_Management_Information_Systems_A_Case_Study/links/6699ba3602e9686cd10db177/Factors-Influencing-Data-Utilization-and-Performance_of_Health-Management-Information-Systems-A-Case-Study.pdf\#}{\texttt{https://www.researchgate.net}}
+\end{itemize}
+
+
+
+% M5: Bibliography
+%\newpage
+\nocite{*} % Ceci force l'apparition des références du .bib sans utilisation de \cite{}
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
